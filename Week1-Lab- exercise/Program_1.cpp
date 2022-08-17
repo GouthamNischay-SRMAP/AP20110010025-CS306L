@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main()
 {
@@ -16,7 +15,7 @@ int main()
                         state=2;
                     else
                     {
-                        printf("Invalid token");
+                        printf("invalid");
                         return 0;
                     }
                     break;
@@ -26,7 +25,7 @@ int main()
                         state=3;
                     else
                     {
-                        printf("Invalid token");
+                        printf("invalid");
                         return 0;
                     }
 
@@ -37,7 +36,7 @@ int main()
                         state=0;
                     else
                     {
-                        printf("Invalid token");
+                        printf("invalid");
                         return 0;
                     }
                     break;
@@ -47,7 +46,7 @@ int main()
                         state=1;
                     else
                     {
-                        printf("Invalid token");
+                        printf("invalid");
                         return 0;
                     }
                     break;
